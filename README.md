@@ -17,10 +17,6 @@
 	<a href="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json"><img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json"></a>
 </p>
 
-<a href="https://bifvit.org">
-	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/bifsitepromobanner.png" />
-</a>
-
 <hr/>
 
 <p align="center" style="padding-top: 10px;">
@@ -68,8 +64,8 @@ The following commands are available in the Makefile:
 To install the web application to your system, clone the repository and run it by using the following commands:
 
 ```
-    git clone https://github.com/NotSooShariff/bif-frontend.git
-    cd bif-frontend
+    git clone https://github.com/jharsh1202/open-contribute-web.git
+    cd open-contribute-web
     npm install
     npm run dev
 ```
@@ -85,6 +81,6 @@ Contributions are welcome! Please open a pull request if you have any suggestion
 This project is licensed under the Apache license. See the LICENSE file for more details.
 
 <p align="center">
-	Made with :heart: by <a href="https://bifvit.org">OpenContribute </a>
+	Made with :heart: by <a href="https://opencontribute.com">OpenContribute </a>
 </p>
 
