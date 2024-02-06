@@ -20,23 +20,23 @@ const Footer = () => {
 
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             
-            <a href="https://www.facebook.com/onestopvit" target="_blank" class="text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.instagram.com/opencontribute/" target="_blank" class="text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FaFacebookSquare/>
             </a>
 
-            <a href="https://www.instagram.com/bif_vit" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.instagram.com/opencontribute/" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FiInstagram/>
             </a>
 
-            <a href="https://www.linkedin.com/company/becoming-i-foundation-vellore-chapter/" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.linkedin.com/in/harshit1202" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <BsLinkedin/>
             </a>
 
-            <a href="https://github.com/BIFVIT" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://github.com/jharsh1202" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FiGithub/>
             </a>
 
-            <a href="http://medium.com/becoming-i-foundation" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://medium.com/@harshit120299" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FaMedium/>
             </a>
 

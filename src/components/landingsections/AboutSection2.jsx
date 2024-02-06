@@ -14,9 +14,9 @@ const About2 = () => {
                   Who We Are
                 </h2>
                 <p className="mb-8 font-light text-text lg:mb-8 md:text-lg lg:text-xl dark:text-darktext dark:opacity-90">
-                We are a vibrant and dynamic group of young minds who are driven by the desire to create meaningful change. We understand that the youth of today hold the key to a brighter tomorrow, and we are dedicated to harnessing this potential. We invite all young and passionate individuals who share our vision to join hands with us and be a part of this transformative journey. Together, we can be the driving force behind a brighter, more equitable future through education.
+                We are a vibrant and dynamic group of young minds who are driven by the desire to create meaningful change. We understand that the youth of today hold the key to a brighter tomorrow, and we are dedicated to harnessing this potential. We invite all young and passionate individuals who share our vision to join hands with us and be a part of this transformative journey. Together, we can be the driving force behind a brighter, more equitable future through helping each other.
                 <br/> <br />
-                In the spirit of collaboration, innovation, and unwavering dedication, OpenContribute -  is forging a path toward educational equity and empowerment, and we invite you to join us on this remarkable quest.</p>
+                In the spirit of collaboration, innovation, and unwavering dedication, OpenContribute -  is forging a path toward equity and empowerment of all, and we invite you to join us on this remarkable quest.</p>
               </div>
             </div>
             <div className="w-full px-4 lg:w-6/12">

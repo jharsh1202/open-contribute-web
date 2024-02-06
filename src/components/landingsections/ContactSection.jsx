@@ -126,11 +126,11 @@ const ContactSection = () => {
                 id="topic"
                 value={topic}
                 onChange={(e) => setTopic(e.target.value)}
-                className="shadow-sm bg-secondary dark:bg-darksecondary text-text text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-3  dark:placeholder-darktext dark:placeholder-opacity-50 dark:text-darktext dark:focus:ring-darkhighlight dark:focus:border-darkhighlight dark:shadow-sm-light"
+                className="shadow-sm bg-secondary dark:bg-darksecondary text-text text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-8 dark:placeholder-darktext dark:placeholder-opacity-50 dark:text-darktext dark:focus:ring-darkhighlight dark:focus:border-darkhighlight dark:shadow-sm-light"
               >
                 <option value="Select a topic">Select a topic</option>
-                <option value="Student">I am a student with an enquiry</option>
-                <option value="School">We are a School who want to collaborate</option>
+                <option value="Student">I have a query</option>
+                <option value="School">We are an organization who wants to collaborate</option>
                 <option value="Brand">We are a brand looking to collaborate</option>
                 <option value="Other">Other...</option>
               </select>

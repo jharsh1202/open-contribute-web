@@ -13,7 +13,8 @@ const HeroSection = () => {
                 <span class="text-xs bg-primary dark:bg-darkprimary   rounded-full text-darktext px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Want to Join Us? Click here</span> 
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
             </a>
-                <h1 class="py-3 text-gray-800 max-w-2xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-darktext">Open <span className='text-primary dark:text-darkprimary'>Contributions...</span>  for a Better  <span className='text-primary dark:text-darkprimary'>Tomorrow</span></h1>
+                <h1 class="py-3 text-gray-800 max-w-2xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-darktext">Open <span className='text-primary dark:text-darkprimary'>Contributions,</span>
+                 <br/> for a Better  <span className='text-primary dark:text-darkprimary'>Tomorrow..</span></h1>
                 <p class="pb-3 max-w-2xl mb-6 font-light text-text lg:mb-8 md:text-lg lg:text-xl dark:text-darktext">platform where transparency meets reliability, fostering optimal utilization of contributions for impactful results.</p>
                 <a href="#contact" class="mr-4 mb-4 bg-secondary dark:bg-darksecondary hover:-translate-y-1 dark:hover:bg-darkhighlight inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg dark:text-darktext ">
                     Join Us

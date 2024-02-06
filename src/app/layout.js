@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'OpenContribute',
-  description: 'Where others teach, We educate',
+  description: 'Empowering Impactful Giving: for a better Tomorrow',
 }
 
 export default function RootLayout({ children }) {
@@ -34,20 +34,20 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content="OpenContribute" />
-        <meta name="description" content="Where others Teach, We Educate. At OpenContribute, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
+        <meta name="description" content="At OpenContribute, we facilitate transaparent contributions and shape futures. Join us in creating a brighter tomorrow through transparent donation platforms committed to making a positive impact!" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://opencontribute.com" />
         <meta property="og:title" content="OpenContribute" />
-        <meta property="og:description" content="Where others Teach, We Educate. At OpenContribute, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
+        <meta property="og:description" content="At OpenContribute, we facilitate transaparent contributions and shape futures. Join us in creating a brighter tomorrow through transparent donation platforms committed to making a positive impact!" />
         <meta property="og:image" content="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/metaimg.jpg" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://opencontribute.com" />
         <meta property="twitter:title" content="OpenContribute" />
-        <meta property="twitter:description" content="Where others Teach, We Educate. At OpenContribute, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
+        <meta property="twitter:description" content="At OpenContribute, we facilitate transaparent contributions and shape futures. Join us in creating a brighter tomorrow through transparent donation platforms committed to making a positive impact!" />
         <meta property="twitter:image" content="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/metaimg.jpg" />
       </Head>
       <body className={inter.className}>
