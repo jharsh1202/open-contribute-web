@@ -10,7 +10,7 @@ import { FaSquareXTwitter } from "react-icons/fa6"
 import { SiTryhackme } from "react-icons/si"
 
 
-const TeamCard = ({ name, image, position, description, website, linkedin, instagram, twitter, github, facebook, snapchat, youtube, tryhackme, medium}) => {
+const TeamCard = ({ name, image, position, description, location, website, linkedin, instagram, twitter, github, facebook, snapchat, youtube, tryhackme, medium}) => {
     const router = useRouter();
 
     const redirectToUrl = (url) => {
@@ -23,7 +23,7 @@ const TeamCard = ({ name, image, position, description, website, linkedin, insta
     
     <div class="items-center rounded-lg bg-secondary  dark:bg-darksecondary hover:scale-105 transition duration-500 max-w-sm w-full lg:max-w-full lg:flex">
               <a href="#">
-                  <Image width={360} height={360} class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={image} alt="Jese  Avatar"/>
+                  <Image width="225" height="225" class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={image} alt="Profie Avatar" />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-text dark:text-darktext">
@@ -31,6 +31,7 @@ const TeamCard = ({ name, image, position, description, website, linkedin, insta
                   </h3>
                   <span class="text-accent dark:text-darkaccent">{position}</span>
                   <p class="mt-3 mb-4 font-light text-text  dark:text-darktext text-opacity-80">{description}</p>
+                  <p class="mt-3 mb-4 font-light text-text  dark:text-darktext text-opacity-80">🌍 {location}</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       {website && <li onClick={()=>redirectToUrl(website)}><BsGlobe2 className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                       {linkedin && <li onClick={()=>redirectToUrl(linkedin)}><BsLinkedin className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}

@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <nav class=" bg-background dark:bg-darkbackground">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" style={{ maxmarginLeft: '100px' }}>
         <a href="/" class="flex items-center">
             <Image width={32} height={32} src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/favicon.ico" class="h-8 mr-3" alt="OpenContribute Logo" />
             <span class="text-text self-center text-2xl font-semibold whitespace-nowrap dark:text-darktext">OpenContribute</span>
@@ -25,8 +25,16 @@ const Navbar = () => {
         <div class="flex items-center md:order-2">
             {/* Add the following OnClick handler after making language routes: onClick={toggleDropdown} */}
             <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-text dark:text-darktext rounded-lg cursor-pointer hover:bg-highlight dark:hover:bg-darkhighlight dark:hover:text-white">
-                <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlinkHref="#a" y="420"/><use xlinkHref="#a" y="840"/><use xlinkHref="#a" y="1260"/></g><use xlinkHref="#a" y="1680"/></g><use xlinkHref="#b" x="247" y="210"/></g><use xlinkHref="#c" x="494"/></g><use xlinkHref="#d" x="988"/><use xlinkHref="#c" x="1976"/><use xlinkHref="#e" x="2470"/></g></svg>
-                English (US)
+                {/* <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlinkHref="#a" y="420"/><use xlinkHref="#a" y="840"/><use xlinkHref="#a" y="1260"/></g><use xlinkHref="#a" y="1680"/></g><use xlinkHref="#b" x="247" y="210"/></g><use xlinkHref="#c" x="494"/></g><use xlinkHref="#d" x="988"/><use xlinkHref="#c" x="1976"/><use xlinkHref="#e" x="2470"/></g></svg> */}
+                <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 900">
+                    <path fill="#FF9933" d="M0 0h1350v900H0z"/>
+                    <path fill="#FFFFFF" d="M0 0h1350v600H0z"/>
+                    <path fill="#128807" d="M0 0h1350v300H0z"/>
+                    <circle cx="675" cy="450" r="110" fill="#128807"/>
+                    <path fill="#FFFFFF" d="M675 355.5L697.5 427l81-3-65.5 49 19.5 81-76.5-47-76.5 47 19.5-81-65.5-49 81 3z"/>
+                </svg>
+
+                EN
             </button>
 
 

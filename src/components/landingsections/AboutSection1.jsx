@@ -4,7 +4,7 @@ import Image from "next/image";
 const About1 = () => {
   return (
     <>
-      <section className="bg-background dark:bg-darkbackground px-4 lg:px-36 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden flex justify-center items-center">
+      <section className="bg-background dark:bg-darkbackground px-4 lg:px-36 pt-20 lg:pt-[60px] pb-12 lg:pb-[90px] overflow-hidden flex justify-center items-center">
         <div className="container">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -775,14 +775,14 @@ const About1 = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <h2>
-                  <span className="mb-8 text-3xl font-bold text-primary dark:text-darkprimary sm:text-4xl">Our Mission: <br/></span> 
+                  <span className="mb-8 text-3xl font-bold text-primary dark:text-darkprimary sm:text-4xl">Our Mission <br/></span> 
                   <span className="mb-8 text-3xl font-bold text-primary dark:text-darkprimary sm:text-2xl">Promoting Transparency of your Contributions</span>
                 </h2>
                 {/* <h2 className=" mb-8 text-3xl font-bold text-darktext  sm:text-4xl">
                   Our Mission: <span className="dark:text-darkprimary">Empowering Every Child</span>  Through Education
                 </h2> */}
                 <p className="mb-8 font-light text-text lg:mb-8 md:text-lg lg:text-xl  dark:text-darktext dark:opacity-90">
-                  Our organization prioritizes transparency to build trust with donors. We provide clear financial reports detailing how donations are allocated and their impact on the causes we support. Through regular updates and testimonials, we showcase the real-life outcomes of donor contributions. We actively seek feedback to improve transparency practices and maintain clear policies on donor information and financial management. Independent audits and oversight committees ensure accountability in fund management. Our commitment to transparency underscores our dedication to making a positive impact while honoring the trust placed in us by our donors.
+                  We prioritize transparency to make sure you get know where and how your contributions is being utilized. We provide clear financial reports detailing how donations are allocated and their impact on the causes we support. Through regular updates and testimonials, we showcase the real-life outcomes of donor contributions. We actively seek feedback to improve transparency practices and maintain clear policies on donor information and financial management. Independent audits and oversight committees ensure accountability in fund management. Our commitment to transparency underscores our dedication to making a positive impact while honoring the trust placed in us by our donors.
                 </p>
               </div>
             </div>

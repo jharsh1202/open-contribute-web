@@ -20,11 +20,11 @@ const StatisticsSection = () => {
     <section className="bg-background px-4 lg:px-36 dark:bg-darkbackground text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
         <section className="bg-background dark:bg-darkbackground">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div className="py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
                 <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-black opacity-75">
-                    <h2 className="text-center mb-4 text-4xl tracking-tight font-bold text-primary dark:text-darkprimary">We have inspired & helped over <span className="font-extrabold">2,000+</span> students</h2>
-                    <p className="text-center mb-4 font-light text-text dark:text-darktext dark:opacity-90">our impact speaks volumes. We&apos;ve reached over 2,000 children through our educational initiatives, kindling a passion for learning and opening doors to brighter futures. With a dedicated team of 200+ volunteers, spanning various disciplines and backgrounds, we collaborate tirelessly to bring our vision of free education to life. Our influence extends to 15+ institutions, where we partner with local organizations to make education accessible to children in underserved areas.</p>
-                    <p className="text-center mb-4 font-bold text-text dark:text-darktext dark:opacity-90">Through 10+ events and campaigns, we&apos;ve not only raised awareness but also garnered the support of thousands of young minds, inviting them to join us on our journey to transform education. We&apos;ve established partnerships with 15 educational institutions and organizations, creating a network that bolsters our ability to drive change. </p>
+                    <h2 className="text-center mb-4 text-4xl tracking-tight font-bold text-primary dark:text-darkprimary">We have inspired & helped over <span className="font-extrabold">10+</span> lives until 2024</h2>
+                    <p className="text-center mb-4 font-light text-text dark:text-darktext dark:opacity-90">Our impact speaks volumes. We&apos;ve reached over 10+ lives through our initiatives, kindling a passion for learning and opening doors to brighter futures. With a dedicated team of 10+ volunteers, spanning various disciplines and backgrounds, we collaborate tirelessly to bring our vision of free education to life. Our influence extends to 5+ institutions, where we partner with local organizations to make education accessible to children in underserved areas.</p>
+                    <p className="text-center mb-4 font-bold text-text dark:text-darktext dark:opacity-90">Through 1+ events and campaigns, we&apos;ve not only raised awareness but also garnered the support of thousands of young minds, inviting them to join us on our journey to transform education. We&apos;ve established partnerships with 1+ educational institutions and organizations, creating a network that bolsters our ability to drive change. </p>
                 </div>
             </div>
             </section>
@@ -37,7 +37,7 @@ const StatisticsSection = () => {
                 <RiTeamLine className='text-purple-700 dark:text-blue-700 text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block' />
                 
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                    {counterOn && <CountUp start={0} end={200} duration={2} delay={0}/>}
+                    {counterOn && <CountUp start={0} end={10} duration={2} delay={0}/>}
                     +
                 </h2>
                 
@@ -49,7 +49,7 @@ const StatisticsSection = () => {
                 <div className="bg-secondary dark:bg-darksecondary px-4 py-6 rounded-lg">
                 <PiStudentBold className='text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block'/>
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                {counterOn && <CountUp start={0} end={2000} duration={2} delay={0}/>}
+                {counterOn && <CountUp start={0} end={20} duration={2} delay={0}/>}
                 +</h2>
                 <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext">Students Reached</p>
                 </div>
@@ -59,7 +59,7 @@ const StatisticsSection = () => {
                 <div className="bg-secondary dark:bg-darksecondary px-4 py-6 rounded-lg">
                 <PiChalkboardTeacher className='text-purple-700 dark:text-blue-700 text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block'/>
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                {counterOn && <CountUp start={0} end={500} duration={2} delay={0}/>}    
+                {counterOn && <CountUp start={0} end={1} duration={2} delay={0}/>}    
                     +
                 </h2>
                 <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext ">Sessions</p>
@@ -70,7 +70,7 @@ const StatisticsSection = () => {
                 <div className="bg-secondary dark:bg-darksecondary px-4 py-6 rounded-lg">
                 <LuSchool className='text-purple-700 dark:text-blue-700 text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block'/>
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                {counterOn && <CountUp start={0} end={15} duration={2} delay={0}/>}    
+                {counterOn && <CountUp start={0} end={1} duration={2} delay={0}/>}    
                     +
                 </h2>
                 <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext ">Institutions</p>
